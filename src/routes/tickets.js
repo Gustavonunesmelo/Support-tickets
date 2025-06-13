@@ -15,8 +15,8 @@ export const tickets = [
   },
     {
     method: "PUT",
-    path: "/tickets",
-    controller: index,
+    path: "/tickets/:id",
+    controller: update,
   },
 
 ]
